@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Application</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        .field {
+            margin-bottom: 1em;
+            background-color: rgb(200, 200, 200);
+            padding: 0.5em;
+            display: inline-block;
+        }
+
+        .popup {
+            background-color: red;
+            position: absolute;
+            width: 10em;
+            height: 10em;
+            top: 20em;
+            left: 10em;
+        }
+    </style>
+</head>
+<body>
+    <ul style="list-style: none">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+
+    <img src="pic.jpg">
+
+    <video src=""></video>
+
+    <audio></audio>
+
+    <div class="popup">
+        <button>Close me</button>
+    </div>
+
+    <form method="post">
+        <div>
+            <div class="field">
+                <span>User Name</span>
+                <div>
+                    <input name="userName">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="field">
+                <span>Password</span>
+                <div>
+                    <input type="password" name="password">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <button>Login</button>
+        </div>
+    </form>
+</body>
+</html>
